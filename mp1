@@ -1,0 +1,45 @@
+Before coming to ER Diagram
+Let us see why have we used mongodb as our database
+Mongodb is a nosql database or in a better way to 
+describe it is a non-relational database 
+that is they have no entities hence they
+ don't use tables or columns.
+So how is nosql different from Sql database,
+nosql can be used to handle big data.
+Also it has no predefined schema and 
+can also be used to handle unstructured data.
+and no nosql has a lot of real time web applications.
+So as we have figured out that nosql has no entities or tables 
+the Er diagram shown is only used to describe the tables 
+and their attributes in our database.
+So we have 4 tables (student, recruiter,Post Scholarship 
+and Applied Students)
+Coming to Student table it has seven attributes
+( Student name,education,skills,achievements,student username 
+and password)
+where the student username forms the primary key of the table.
+So when the students signup their data is stored in the student table.
+Similarly we have recruiter table having seven attributes
+(Recruiter name,Phone number,Designation
+ ,organization,Recruiter type that is (direct or external agency)
+ ,and Recruiter username and password).
+ Recruiter username forms the primary key of this table.
+ So if the user is a Recruiter his data is stored in recruiter table.
+ third table is post scholarship table having seven attributes
+ (Recruiter_id,Scholarship_ID, scholarship name,
+ scholarship description
+ ,type of scholarship ,location and scholarship requirements)
+ here the scholarship_ID forms the primary key of the table.
+  here a recruiter has ability to post a scholarship 
+  and its corresponding data is stored in the 
+  post Scholarship table.
+  and last table is the Applied Students table
+  it has seven attributes(Student_id, Scholarship_ID, 
+  recruiter_id,Scholarship title, Student Name , 
+  Student email and Date applied)
+  here the (student_id, scholarship_ID and recruiter_id 
+  combine to form the primary key of the table).
+  So whenever a student applies for a scholarship
+  the recruiter can also see all the students profile
+  who have applied for a particular Scholarship. 
+ 

@@ -1,0 +1,16 @@
+Database Schema
+
+Database Name - Udyog
+Database Collections - 
+        1. students - ( 
+                { email: "text", password: "text",
+
+                profile: {name: "text", photo: "photo", resume: "file", key skills: "text", education: "text", profile summary: "text", experience : number, it skills: { skill1: "text", skill2: "text" ..... }, projects: { project1: "text", project2: "text" } },
+                
+                notice period: number, date applied: date, applied jobs: {jobtitle1: "text", jobtitle2: "text".....},saved jobs: {jobtitle1: "text", jobtitle2: "text".....} } )
+
+
+        2. recruiters - ( { email: "text", password: "text",
+         profile: {name: "text", phone: number, photo: "photo", designation: "text", organization: "text", profile summary: "text", recruiter type: "text"}
+
+        } )
